@@ -21,7 +21,7 @@ cd run-ai-report
 
 ### 2. Install Poetry (if not already installed)
 ```bash
-curl -sSL https://install.python-poetry.org | python3 -
+pipx install poetry
 ```
 
 ### 3. Install dependencies
