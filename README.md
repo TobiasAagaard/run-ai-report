@@ -35,7 +35,7 @@ poetry install --no-root
 Create a `.env` file in the project root with your Jira credentials:
 
 ```bash
-cp .env.example .env  # If you have an example file, or create manually
+cp .env.example .env  
 ```
 
 ### 2. Add your Jira configuration to `.env`
@@ -64,4 +64,3 @@ Or activate the virtual environment first:
 poetry shell
 python -m jira_insight
 ```
-
